@@ -57,7 +57,7 @@
     justify-content: center;
 }
 .imagessss img{
-    width: 120px;
+    width: 90px;
     /* border: 2px solid yellow; */
 }
 .detailss{
@@ -94,6 +94,7 @@
     font-size: 20px;
     padding: 10px 50px;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 @media (min-width:340px) and (max-width:600px) {

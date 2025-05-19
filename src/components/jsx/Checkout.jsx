@@ -275,7 +275,7 @@ function Checkout() {
         </div>
       </div>
 
-      <ToastContainer position="bottom-center" autoClose={3000} theme="dark" style={{ marginBottom: "10%",marginLeft:"25%" }}/>
+      <ToastContainer position="bottom-center" autoClose={3000} theme="dark" className="toaster"/>
     </>
   );
 }

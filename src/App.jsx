@@ -13,9 +13,11 @@ function App() {
     <>
       <Navbar />
       <Routing />
-      <ToastContainer position="bottom-center" autoClose={3000} theme="dark" style={{ marginBottom: "10%",marginLeft:"25%" }}/>
-      {/* <Fotter /> */}
-      {/* <Loader /> */}
+      <ToastContainer 
+        position="bottom-center"
+        autoClose={3000}
+        theme="dark"
+        className="toaster"/>
     </>
   )
 }

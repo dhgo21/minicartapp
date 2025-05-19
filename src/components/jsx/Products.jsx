@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react'
 import "../css/Products.css"
-import { FaEye } from "react-icons/fa";
 import { CiHeart } from "react-icons/ci";
 import { IoMdHeart } from "react-icons/io";
 import { useDispatch, useSelector } from 'react-redux';
@@ -66,6 +65,13 @@ function Products() {
   }
   const productsToShow = filteritems.length > 0 ? filteritems : items;
 
+  function truncateText(text, maxLength)
+    {
+        if (text.length > maxLength) {
+        return text.substring(0, maxLength) + '...';
+    }
+        return text;
+    }
   return (
     <>
     {
@@ -109,7 +115,7 @@ function Products() {
                   </div>
                 </div>
                 <div className="info">
-                  <h5>{curr.title}</h5>
+                  <h5>{truncateText(curr.title,15)}</h5>
                   <p>Price: ${curr.price}</p>
                   <p>Rating: {curr.rating.rate}</p>
                   <div className="addtocart">
