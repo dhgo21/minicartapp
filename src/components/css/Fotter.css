@@ -1,0 +1,107 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    
+}
+.footer{
+    width: 100%;
+    padding: 30px 40px;
+    background: #e8e7e7;
+    
+}
+.footer .container{
+    display: flex;
+    max-width: 100%;
+    
+}
+.footer .container .bbox{
+    width: 30%;
+    padding: 20px 20px;
+    border-right: 2px solid rgb(170, 167, 167);
+    bottom: 0px;
+}
+.footer .container .bbox .box{
+    display: flex;
+    padding: 10px 20px;
+    margin-top: 15px;
+}
+.footer .container .bbox .box .iconbox{
+    font-size: 26px;
+    color: red;
+}
+.footer .container .bbox .box .detail{
+    margin-left: 10px;
+}
+.footer .container .bbox .box .detail h3{
+    text-transform: uppercase;
+    font-size: 14px;
+    color: rgb(117, 123, 234);
+    font-weight: 300px;
+}
+.footer .container .bbox .box .detail p{
+    font-size: 12px;
+}
+
+.footer .container .rbox{
+    width: 100%;
+    padding: 20px 20px;
+}
+.footer .container .rbox .top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.footer .container .rbox h1{
+    margin-bottom: 30px;
+}
+
+.footer .container .rbox .bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 30px;
+    letter-spacing: 1px;
+    
+}
+.footer .container .rbox .bottom p{
+    color: rgb(157, 157, 157);
+    margin-top: 6px;
+}
+.footer .container .rbox .bottom p:hover{
+    cursor: pointer;
+    color:red;
+}
+
+.patent{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+#apapname{
+    letter-spacing: 1px;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+@media (min-width:340px) and (max-width:600px)
+{
+    .footer{
+    width: 240%;
+    padding: 30px 40px;
+    background: #e8e7e7;
+    }
+    .footer .container .bbox{
+    width: 50%;
+    padding: 20px 20px;
+    border-right: 2px solid rgb(170, 167, 167);
+    }
+    .patent{
+        width: 240%;
+    }
+}

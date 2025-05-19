@@ -1,0 +1,29 @@
+.loader{
+    width: 50px;
+    /* border: 2px solid black; */
+    height: 50px;
+    padding: 20px;
+    position: absolute;
+    top: 260px;
+    left: 730px;
+}
+.loading{
+    border-top: 6px solid green;
+    /* border-right: 3px solid green; */
+    /* border-bottom: 1px solid green; */
+    border-left: 6px solid green;
+    border-radius: 50%;
+    height: 52px;
+    width: 56px;
+    animation: mymove 1s infinite;
+}
+@keyframes mymove {
+    100% {transform: rotate(360deg);}
+}
+@media (max-width:599px) {
+    .loader{
+        width: 50px;
+        top: 90%;
+        left: 90%;
+    }
+}
