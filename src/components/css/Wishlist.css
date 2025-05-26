@@ -1,0 +1,114 @@
+.wishlist{
+    margin: 10px;
+    /* border: 2px solid yellow; */
+}
+.productss{
+    /* border: 2px solid blue; */
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+    flex-wrap: wrap;
+}
+.hcicon{
+    font-size: 75px;
+}
+.wishh{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: normal;
+    text-align: left;
+    /* border: 2px solid green; */
+}
+.emptywishlist{
+    /* border: 2px solid red; */
+    text-align: center;
+}
+.emptywishlist h2{
+    font-size: 30px;
+    /* text-transform: uppercase; */
+    letter-spacing: 1px;
+    /* font-weight: normal; */
+    margin-bottom: 20px;
+}
+.sbttn{
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.wishproduct{
+    border: 2px solid rgb(232, 231, 231);
+    border-radius: 10px;
+    width: 15%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    /* flex-wrap: wrap; */
+    margin-right: 20px;
+}
+.imagessss{
+    display: flex;
+    width: 200px;
+    justify-content: center;
+}
+.imagessss img{
+    width: 90px;
+    /* border: 2px solid yellow; */
+}
+.detailss{
+    /* border: 2px solid brown; */
+    margin: 10px 0px;
+    width: 200px;
+}
+.hicon .heart{
+    font-size: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+#title{
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+#price{
+    font-size: 17px;
+    margin-bottom: 5px;
+    letter-spacing: 1px;
+}
+#rating{
+    font-size: 17px;
+    margin-bottom: 5px;
+    letter-spacing: 1px;
+}
+.add-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#add-button{
+    font-size: 20px;
+    padding: 10px 50px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+@media (min-width:340px) and (max-width:600px) {
+    .wishlist{
+        width: 237%;
+    }
+    .wishproduct{
+    width: 24%;
+    margin-right: 0px;
+}
+.detailss{
+    /* border: 2px solid brown; */
+    margin: 10px 0px;
+    width: 200px;
+    padding: 10px;
+}
+}

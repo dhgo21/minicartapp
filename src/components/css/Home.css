@@ -1,0 +1,211 @@
+/* Home.css */
+/* body{
+    background-color: rgb(210, 228, 228);
+} */
+
+.shopnow {
+  position: relative;
+  width: 100%;
+  height: auto;
+  display: inline-block;
+}
+
+.shopnow img {
+  width: 100%;
+  display: block;
+}
+.boxing img{
+    width: 100%;
+    z-index: 1;
+}
+.midbox{
+    width:8%;
+    border-radius: 10PX;
+}
+.bttn1{
+    top: 60%;
+    left: 5%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    margin-left: 68%;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    z-index: 2;
+}
+.button2{
+    top: 189%;
+    left: 76%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    font-size: 12px;
+    padding: 5px 5px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.button3{
+    transform: translate(-50%, -50%);
+    position: absolute;
+    font-size: 10px;
+    top: 152%;
+    left: 75%;
+    padding: 5px 5px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.button4{
+    transform: translate(-50%, -50%);
+    position: absolute;
+    font-size: 20px;
+    top: 186%;
+    left: 29%;
+    padding: 5px 5px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.button5{
+    transform: translate(-50%, -50%);
+    position: absolute;
+    font-size: 10px;
+    top: 256%;
+    left: 50%;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.button6{
+    transform: translate(-50%, -50%);
+    position: absolute;
+    font-size: 10px;
+    top: 256%;
+    left: 16%;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.button7{
+    transform: translate(-50%, -50%);
+    position: absolute;
+    font-size: 10px;
+    top: 227%;
+    left: 78%;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.button8{
+    transform: translate(-50%, -50%);
+    position: absolute;
+    font-size: 10px;
+    top: 270%;
+    left: 76%;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.banners{
+    display: flex;
+}
+#frontpage2{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.banner2{
+    width: 100%;
+    border-radius: 10px;
+}
+.banner1{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.leftboxs{
+    /* border: 2px solid red; */
+    width: 50%;
+    margin-right: 10px;
+}
+.rightboxs{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid green;  */
+    width: 25%;
+}
+
+.banners1{
+    display: flex;
+}
+.banner3{
+    /* border: 2px solid red; */
+    width: 35%;
+    margin-right: 10px;
+    border-radius: 10px;
+    height: 20%;
+}
+.frontpage5{
+    width: 50%;
+    border-radius: 10px;
+}
+.frontpage7{
+    width: 100%;
+    border-radius: 10px;
+}
+@media (min-width:340px) and (max-width:600px) {
+    .boxing {
+        min-height: 100%;
+        width: 238%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #fp1{
+        width: 101%;
+    }
+    .bttn1{
+    top: 68%;
+    left: 7%;
+    }
+    .button2{
+    top: 108%;
+    left: 69%;
+    }
+    .button3{
+    top: 142%;
+    left: 113%;
+    right: -28%;
+    }
+    .button4{
+    top: 150%;
+    left: 39%;
+}
+.button5{
+    top: 90%;
+    left: 177%;
+    right: -87%;
+    font-size: 6px;
+    padding: 2px;
+}
+.button6{
+    top: 110%;
+    left: 178%;
+    right: -90%;
+    font-size: 6px;
+    padding: 2px;
+}
+.button7{
+    top: 133%;
+    left: 172%;
+    right: -94%;
+    font-size: 15px;
+    padding: 5px;
+}
+.button8{
+    top: 157%;
+    left: 173%;;
+    right: -94%;
+    font-size: 12px;
+    padding: 5px;
+}
+}
+  

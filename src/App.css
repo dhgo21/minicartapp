@@ -1,0 +1,18 @@
+.toaster {
+  margin-bottom: 5%;
+  margin-left: 2%;
+}
+
+@media (max-width: 768px) {
+  .toaster {
+    margin-bottom: 15%;
+    margin-left: 10%;
+  }
+}
+
+@media (max-width: 480px) {
+  .toaster {
+    margin-bottom: 20%;
+    margin-left: 5%;
+  }
+}
